@@ -18,12 +18,12 @@
 
 ### *Jagofr's Approach of making a JSON Database for PHP.*
 
-> While working on using existing databases and their respective connectors when learning PHP, I took it upon myself to "learn PHP" by making a monolithic (and soon file-based) JSON Database Framework. I wanted something that would make so much sense, that it was simple to use with just a few commands.
+While working on using existing databases and their respective connectors when learning PHP, I took it upon myself to "learn PHP" by making a monolithic (and soon file-based) JSON Database Framework. I wanted something that would make so much sense, that it was simple to use with just a few commands.
 
 
 ### Why though?
 
-> While yes, I could use existing database systems ^[There actually is an "/exclude" folder in my local repo, that is included in the ".gitignore".], but I mostly decided to use this for my own learning of PHP, whilst using it for my own usage for rapid application protyping. While, yes I will make a "release" version eventually available, or likewise you can build from source, it was not my intention to have this be a "production-ready" framework. At least, not from the start. Who knows what the future might bring?
+While yes, I could use existing database systems ^[There actually is an "/exclude" folder in my local repo, that is included in the ".gitignore".], but I mostly decided to use this for my own learning of PHP, whilst using it for my own usage for rapid application protyping. While, yes I will make a "release" version eventually available, or likewise you can build from source, it was not my intention to have this be a "production-ready" framework. At least, not from the start. Who knows what the future might bring?
 
 ## Usage
 
