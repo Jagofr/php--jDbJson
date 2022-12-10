@@ -3,4 +3,4 @@
 ---
 > Because we totally didn't need another Database Framework.  
 
-^~^^Some^ ^Guy^ ^I^ ^guess?^
+^~^Some ^Guy ^I ^guess?
