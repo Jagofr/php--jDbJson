@@ -30,12 +30,16 @@
 I'm working on it. Hold on. A Wiki would be available soon.
 
 ## Appendix
-Additional Information that didn't make the cut.
 
 ##### Additional Badges
-![Website](https://img.shields.io/website?down_color=red&down_message=Check%20website%21&up_color=green&up_message=Hire%20me%21&url=https%3A%2F%2Favato.media%2F)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/jagofr/php--jDbJson) ![Lines of code](https://img.shields.io/tokei/lines/github/jagofr/php--jDbJson) 
+![Website](https://img.shields.io/website?down_color=red&down_message=Check%20website%21&up_color=green&up_message=Hire%20me%21&url=https%3A%2F%2Favato.media%2F) 
+
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/jagofr/php--jDbJson) ![Lines of code](https://img.shields.io/tokei/lines/github/jagofr/php--jDbJson)  
+
 ![GitHub](https://img.shields.io/github/license/jagofr/php--jDbJson)  
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson)![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson) ![GitHub all releases](https://img.shields.io/github/downloads/jagofr/php--jDbJson/total)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/jagofr/php--jDbJson) ![GitHub last commit](https://img.shields.io/github/last-commit/jagofr/php--jDbJson)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson)![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson) ![GitHub all releases](https://img.shields.io/github/downloads/jagofr/php--jDbJson/total)  
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/jagofr/php--jDbJson) ![GitHub last commit](https://img.shields.io/github/last-commit/jagofr/php--jDbJson)  
+
 ![GitHub forks](https://img.shields.io/github/forks/jagofr/php--jDbJson?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/jagofr/php--jDbJson?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/jagofr/php--jDbJson?style=social)
