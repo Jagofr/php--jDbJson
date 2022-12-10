@@ -32,14 +32,16 @@ I'm working on it. Hold on. A Wiki would be available soon.
 ## Appendix
 
 ##### Additional Badges
-![Website](https://img.shields.io/website?down_color=red&down_message=Check%20website%21&up_color=green&up_message=Hire%20me%21&url=https%3A%2F%2Favato.media%2F) 
-
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/jagofr/php--jDbJson) ![Lines of code](https://img.shields.io/tokei/lines/github/jagofr/php--jDbJson)  
-
-![GitHub](https://img.shields.io/github/license/jagofr/php--jDbJson)  
-
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson)![GitHub release (latest by date)](https://img.shields.io/github/v/release/jagofr/php--jDbJson) ![GitHub all releases](https://img.shields.io/github/downloads/jagofr/php--jDbJson/total)  
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/jagofr/php--jDbJson) ![GitHub last commit](https://img.shields.io/github/last-commit/jagofr/php--jDbJson)  
-
-![GitHub forks](https://img.shields.io/github/forks/jagofr/php--jDbJson?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/jagofr/php--jDbJson?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/jagofr/php--jDbJson?style=social)
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(14em, 1fr)); justify-items: center; margin:auto; gap: 0.5em;">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/jagofr/php--jDbJson?style=social" />
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jagofr/php--jDbJson?style=social" />
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/jagofr/php--jDbJson?style=social" />
+    <img src="https://img.shields.io/github/license/jagofr/php--jDbJson" alt="GitHub License" />
+    <img src="https://img.shields.io/website?down_color=red&down_message=Chec-k%20website%21&up_color=green&up_message=Hire%20me%21&url=https%3A%2F%2Favato.media%2F" alt="Website" />
+    <img src="https://img.shields.io/tokei/lines/github/jagofr/php--jDbJson" alt="Lines of code" />
+    <img src="https://img.shields.io/github/directory-file-count/jagofr/php--jDbJson" alt="GitHub repo file count" />
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/jagofr/php--jDbJson" />
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jagofr/php--jDbJson" />
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/jagofr/php--jDbJson" />
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/jagofr/php--jDbJson/total" />
+</div>
