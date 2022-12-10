@@ -1,0 +1,75 @@
+{
+    "dataStores":
+    [
+        {
+            "storeName" : "todoData",   
+            "storeUUID" : 0,
+            "storeData" : 
+            {
+                "todos" : [
+                    {
+                        "guid" : "135e9873-fa6a-49d4-ba62-8a4c7a5640ca",
+                        "name" : "TestData",
+                        "note" : "JsonTest Data for Testing Json Files with Stuff and tests and things",
+                        "completed" : false
+                    },
+                    {
+                        "guid" : "ad545d63-c7f9-4126-9132-833cbcb991e2",
+                        "name" : "TestDataAgaom",
+                        "note" : "What are you doing with all this information it seems like you don't care what's taking place here, right?",
+                        "completed" : true
+                    }    
+                ]
+            }
+        },
+        {
+            "storeName" : "customerData",
+            "storeUUID" : 1,
+            "storeData" : 
+            {
+                "customers" : [
+                    {
+                        "guid" : "f6dde9fd-6420-4293-832b-bd309a31ed79",
+                        "firstname" : "Test",
+                        "lastname" : "Person",
+                        "middlename" : "Name",
+                        "cellphone" : "255-534-2222",
+                        "email" : "test@email.com",
+                        "facebook" : "test.facebook123",
+                        "instagram" : "@testig"
+                    },
+                    {
+                        "guid" : "ab1119e1-f4b3-406e-bf7a-1aecd392c69f",
+                        "firstname" : "Test",
+                        "lastname" : "Person",
+                        "middlename" : "Name",
+                        "cellphone" : "255-534-2222",
+                        "email" : "test@email.com",
+                        "facebook" : "test.facebook123",
+                        "instagram" : "@testig"
+                    },
+                    {
+                        "guid" : "7fd42a0a-aa0c-4065-b708-9859149cd4ee",
+                        "firstname" : "Test",
+                        "lastname" : "Person",
+                        "middlename" : "Name",
+                        "cellphone" : "255-534-2222",
+                        "email" : "test@email.com",
+                        "facebook" : "test.facebook123",
+                        "instagram" : "@testig"
+                    },
+                    {
+                        "guid" : "0493bf2e-ce95-4d94-9047-58e1d2bce5c9",
+                        "firstname" : "Test",
+                        "lastname" : "Person",
+                        "middlename" : "Name",
+                        "cellphone" : "255-534-2222",
+                        "email" : "test@email.com",
+                        "facebook" : "test.facebook123",
+                        "instagram" : "@testig"
+                    }
+                ]
+            }
+        }
+    ]
+}
