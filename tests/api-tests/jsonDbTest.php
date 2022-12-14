@@ -1,6 +1,6 @@
 <?php
-require('jsonDb.php');
-$jsonDB = new dbConnJagofrJsonDb();
+require($_SERVER['DOCUMENT_ROOT'] . '/api/jsonDb.php');
+$jsonDB = new dbConnJagofrJsonDb($_SERVER['DOCUMENT_ROOT'], 'dbs', 'testJsonData.json');
 ?>
 <!DOCTYPE html>
 <html lang="en">

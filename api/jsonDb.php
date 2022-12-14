@@ -1,6 +1,6 @@
 <?php
 Class dbConnJagofrJsonDb {
-    private $dbFileRoot = "./";
+    private $dbFileRoot = './';
     /**
      * @return string
      */
@@ -21,17 +21,41 @@ Class dbConnJagofrJsonDb {
     function get_dbFileName() {
         return $this->dbFileName;
     }
-    private $dbFilePath = "";
+    private $dbFilePath = null;
     /**
      * @return string
      */
     function get_dbFilePath() {
-        $this->dbFilePath = $this->dbFileRoot . $this->dbFileFolder . $this->dbFileName;
+        if($this->dbFileFolder == null) {
+            $this->dbFilePath = $this->dbFileRoot . $this->dbFileFolder . $this->dbFileName;
+            return $this->dbFilePath;
+        }
         return $this->dbFilePath;
+    }
+    function set_dbFilePath(string $root, string $folder, string $file) {
+        $this->dbFilePath = $root . '\\' . $folder . '\\' . $file;
+        return;
     }
     private $db;
     private $dbDataStores;
-    function __construct(){
+    function __construct(string $docRoot = null, string $docFileFolder = null, string $docFileName = null){
+        if ($docRoot != null && $docFileFolder != null && $docFileName != null) {
+            $this->set_dbFilePath($docRoot, $docFileFolder, $docFileName);
+
+            if (file_exists($this->get_dbFilePath())) { 
+                $dbFileStream = fopen($this->get_dbFilePath(), 'r');
+                $this->db = json_decode(fread($dbFileStream, filesize($this->get_dbFilePath())));
+                $this->dbDataStores = $this->db->dataStores;
+    
+                $dbDataStoreEx = $this->db->dataStores;
+                
+            } else {
+    
+                echo "<pre> File does not exist: " . $this->get_dbFilePath() . "</pre>";
+            }
+            return;    
+        }
+
         if (file_exists($this->get_dbFilePath())) { 
             $dbFileStream = fopen($this->get_dbFilePath(), 'r');
             $this->db = json_decode(fread($dbFileStream, filesize($this->get_dbFilePath())));
@@ -42,7 +66,8 @@ Class dbConnJagofrJsonDb {
         } else {
 
             echo "<pre> File does not exist: " . $this->get_dbFilePath() . "</pre>";
-        } 
+        }
+        return;
     }
     public function showDataStoreByName(string $storeName = null) {
         if ($storeName == null) {
